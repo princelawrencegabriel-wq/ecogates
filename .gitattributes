@@ -1,2 +1,304 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIL WEBSITE Awareness</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f8f2;
+    line-height: 1.8;
+}
+
+header {
+    background: linear-gradient(rgba(0,100,0,0.7), rgba(0,100,0,0.7)),
+    url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+header h1 {
+    font-size: 55px;
+}
+
+header p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+nav {
+    background: #145214;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 70px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #145214;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.highlight-box {
+    background: #e6f5e6;
+    padding: 25px;
+    border-left: 6px solid #1b7a1b;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: #1b7a1b;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    background: #145214;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#crisis">Environmental Crisis</a>
+<a href="#climate">Climate Change</a>
+<a href="#plastic">Plastic Pollution</a>
+<a href="#deforestation">Deforestation</a>
+<a href="#mission">Our Mission</a>
+<a href="#action">Take Action</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+<h1>Together We Can Heal The Earth</h1>
+<p>
+INCAT Students for Nature is a global student-led environmental awareness campaign dedicated to protecting our planet.
+We believe the future of humanity depends on the choices we make today.
+Every action matters. Every voice counts.
+</p>
+<a href="#action" class="btn">Join The Green Movement</a>
+</header>
+
+<section id="about">
+<h2>Who We Are</h2>
+<p>
+INCAT Students for Nature is an awareness initiative created to educate communities about environmental destruction,
+climate change, biodiversity loss, pollution, and sustainability.
+Our mission is to empower students and citizens to take responsibility for the Earth.
+</p>
+
+<div class="highlight-box">
+<p>
+We are not just building a website.
+We are building awareness.
+We are building responsibility.
+We are building a future.
+</p>
+</div>
+</section>
+
+<section id="crisis">
+<h2>The Global Environmental Crisis</h2>
+<p>
+The Earth is currently facing one of the most critical periods in human history.
+Natural ecosystems are collapsing. Species are going extinct.
+Water sources are drying. Forests are disappearing.
+</p>
+
+<p>
+Scientists warn that immediate action is required to prevent irreversible damage.
+Environmental awareness is the first step toward global change.
+</p>
+</section>
+
+<section id="climate">
+<h2>Climate Change</h2>
+<p>
+Global temperatures are steadily rising, driven largely by greenhouse gas emissions from human activity. Burning fossil fuels like coal, oil, and natural gas releases carbon dioxide and other heat-trapping gases into the atmosphere. These gases act like a blanket around the Earth, trapping heat and disrupting natural climate systems. As a result, weather patterns are becoming more extreme, glaciers are melting, and sea levels are rising, threatening communities around the world.
+
+The consequences of climate change are far-reaching. Intense storms, prolonged droughts, and devastating wildfires are now more frequent and severe, impacting agriculture, freshwater supplies, and ecosystems. Wildlife struggles to adapt, and human populations—especially vulnerable communities—face increasing risks from floods, heatwaves, and food insecurity. Without urgent action, these challenges will intensify, affecting every corner of the globe.
+
+But solutions exist. Reducing carbon emissions, shifting to renewable energy, and protecting forests can slow the warming of our planet. Individual actions—like conserving energy, using public transport, and supporting sustainable policies—also make a difference. Together, these efforts can preserve our climate, safeguard biodiversity, and secure a livable future for generations to come.
+</p>
+
+<p>
+Effects of climate change include:
+</p>
+
+<ul>
+<li>Rising sea levels that threaten coastal communities and ecosystems</li>
+<li>Extreme weather events such as hurricanes, floods, and storms</li>
+<li>Longer drought periods, reducing access to fresh water and affecting agriculture</li>
+<li>Food shortages as crops fail and fisheries decline</li>
+<li>Wildfires that destroy homes, forests, and wildlife habitats</li>
+<li>Melting glaciers contributing to rising oceans and loss of freshwater sources</li>
+</ul>
+
+<p>
+Climate change affects everyone, but future generations will bear the heaviest burden if action is not taken today. The time to act is urgent, because every step we take now—toward cleaner energy, sustainable practices, and global cooperation—can make a real difference.
+
+Deforestation causes:
+
+Habitat destruction
+Loss of biodiversity
+Increased carbon emissions
+Soil erosion
+Disrupted rainfall patterns
+But future generations will suffer the most.
+</p>
+</section>
+
+<section id="plastic">
+<h2>Plastic Pollution</h2>
+<p>
+Plastic pollution has become one of the biggest threats to marine life today. Every year, millions of tons of plastic waste end up in our oceans, harming marine ecosystems and threatening countless species. Sea turtles, whales, fish, and seabirds often mistake plastic for food, leading to injuries, starvation, and death. Even more alarming, microplastics—tiny plastic particles—have now infiltrated our drinking water, seafood, and even the air we breathe, affecting human health as well. From beaches to the deep ocean, plastic is everywhere, and its consequences are growing every day.
+
+The scale of the problem is staggering. Plastic never truly disappears—it breaks down into smaller fragments that persist for hundreds of years. Coral reefs, mangroves, and marine habitats are increasingly clogged with debris, disrupting the delicate balance of ecosystems. The lives of marine animals are intricately linked to the health of their habitats, and plastic pollution threatens the survival of species that have existed for millions of years.
+
+But there is hope. Individual actions matter. By reducing single-use plastics, choosing reusable alternatives, and supporting cleanup initiatives, each of us can make a tangible difference. Communities, governments, and businesses are also stepping up with innovative solutions, from banning plastic bags to developing biodegradable materials.
+
+Every small effort counts, and awareness is the first step toward change. Together, we can protect marine life, restore the health of our oceans, and ensure a cleaner, safer planet for future generations.
+</p>
+
+<div class="highlight-box">
+<p>
+Reducing single-use plastic is one of the simplest yet most powerful actions individuals can take.
+</p>
+</div>
+</section>
+
+<section id="deforestation">
+<h2>Deforestation</h2>
+<p>
+Forests are vital to life on Earth. They produce oxygen, absorb carbon dioxide, and help regulate the climate, making them essential in the fight against global warming. Beyond their role in the atmosphere, forests are home to millions of species of plants, animals, and microorganisms, many of which cannot survive anywhere else. They support ecosystems, maintain clean water, prevent soil erosion, and influence rainfall patterns, making them crucial for both nature and human communities.
+
+Yet, despite their importance, millions of trees are cut down each year for agriculture, logging, and urban development. This rampant deforestation destroys habitats, threatens wildlife, reduces biodiversity, and accelerates climate change. It also impacts people: soil degradation, disrupted water cycles, and loss of forest resources put communities at risk, especially those relying directly on forests for food, shelter, and livelihoods. Protecting existing forests, planting new trees, and adopting sustainable land practices are urgent steps we must take to ensure a healthy planet for future generations. Every tree saved or planted is a step toward cleaner air, thriving ecosystems, and a stable climate.
+</p>
+
+<p>
+Deforestation causes:
+</p>
+
+<ul>
+<li>Habitat destruction</li>
+<li>Loss of biodiversity</li>
+<li>Increased carbon emissions</li>
+<li>Soil erosion</li>
+<li>Disrupted rainfall patterns</li>
+</ul>
+</section>
+
+<section id="mission">
+<h2>Our Mission</h2>
+<p>
+INCAT Students for Nature aims to:
+</p>
+
+<ul>
+<li>Planting 500 trees in our community to restore green spaces and improve air quality.</li>
+<li>Reducing school plastic usage by 40%, promoting reusable alternatives and responsible consumption.</li>
+<li>Organizing monthly clean-up drives to keep our streets, rivers, and beaches free from litter.</li>
+<li>Educating 1,000 students about sustainability, climate change, and the importance of protecting our planet.</li>
+<li>Promoting renewable energy awareness and encouraging energy-efficient practices in schools and homes.</li>
+<li>Encouraging eco-friendly habits, from water conservation to mindful waste management, that can become lifelong practices.</li>
+</ul>
+
+<p>
+By taking these actions, Nature21 empowers students and communities to make choices that protect our environment, foster responsibility, and inspire lasting change. Every effort brings us closer to a healthier planet for future generations.
+</p>
+</section>
+
+<section id="action">
+<h2>Take Action Today</h2>
+<p>
+You can help protect the planet by:
+</p>
+
+<ul>
+<li>Use reusable water bottles to reduce single-use plastic and minimize pollution.</li>
+<li> Use reusable water bottles to reduce single-use plastic and minimize pollution.</li>
+<li>Reduce waste by recycling, composting, and choosing products with minimal packaging.</li>
+<li>Plant trees to restore ecosystems, improve air quality, and combat climate change.</li>
+<li>Participate in clean-up events to keep your community, parks, and waterways free from litter.</li>
+<li>Spread environmental awareness by sharing knowledge, campaigns, and eco-friendly practices with friends and family.</li>
+<li>Support sustainable businesses that prioritize ethical production, renewable energy, and environmentally friendly materials.</li>
+<li>Educate others about climate change and the importance of protecting biodiversity, forests, and oceans.</li>
+</ul>
+
+<a href="#" class="btn">Take The Green Pledge</a>
+</section>
+
+<section>
+<h2>Why Awareness Matters</h2>
+<p>
+Awareness is the foundation of change. It opens our eyes to the challenges facing our planet, helping us understand how deforestation, pollution, and climate change impact not only wildlife and ecosystems but also human communities. Without awareness, these problems remain invisible—hidden behind everyday routines and habits.
+
+When people become aware, ignorance is replaced with understanding. Understanding fosters empathy and responsibility, encouraging individuals to take action—from reducing plastic use to conserving energy, planting trees, or supporting sustainable initiatives. These actions, multiplied across communities, create a powerful ripple effect that drives real change on a local and global scale.
+</p>
+
+<p>
+Awareness also inspires collaboration. When students, families, schools, and organizations share knowledge, they build a culture of environmental responsibility, making sustainable choices the norm rather than the exception. By learning, teaching, and spreading information, communities gain the tools needed to solve problems before they become irreversible.
+
+Ultimately, awareness transforms potential into progress. It turns small, individual efforts into collective solutions, ensuring that future generations inherit a healthier, cleaner, and more resilient planet. Every voice raised, every lesson shared, and every campaign launched brings us closer to a world where the environment is protected, respected, and cherished.
+</p>
+</section>
+
+<section>
+<h2>Our Commitment</h2>
+<p>
+We commit to leading by example.
+We commit to sustainable practices.
+We commit to protecting biodiversity.
+We commit to reducing carbon footprints.
+We commit to inspiring change.
+</p>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: INCAT Students for Nature@gmail.com</p>
+<p>School: Ilocos Norte College of Arts and Trades</p>
+<p>Group Members: Prince lawrence Gabriel,
+    Jireh Pearl Gonzales,
+    Jake Llacuna,
+    Geadrey Johan Salem Artates,
+Ley Angeles
+</p>
+<p>Group 8:</p>
+<p>Project: Environmental Awareness Campaign 2026</p>
+</section>
+
+<footer>
+<p>© 2026 INCAT Students for Nature | Environmental Awareness Movement | Protecting Our Planet Together</p>
+</footer>
+
+</body>
+</html>
