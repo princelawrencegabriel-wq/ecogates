@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Youth for the Environment</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f9f4;
+    line-height: 1.8;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(20, 82, 20, 0.7);
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease forwards;
+}
+
+header p {
+    font-size: 1.3em;
+    animation: fadeInUp 1s ease forwards;
+    margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    color: #145214;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    color: #2d682d;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.highlight {
+    background: #e6f5e6;
+    padding: 20px;
+    border-left: 5px solid #2E7D32;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.highlight:hover {
+    transform: scale(1.02);
+}
+
+.highlight.call-to-action {
+    background: #fff3e0;
+    border-left: 5px solid #f57f17;
+    text-align: center;
+}
+
+.highlight.call-to-action p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+}
+
+/* Team Section */
+.team-section {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.team-section h2 {
+    margin-bottom: 30px;
+}
+
+.team-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team-section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em;
+}
+
+.team-section ul li:last-child {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    background: #145214;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    header h1 { font-size: 2em; }
+    section { padding: 40px 15px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>YOUTH FOR THE ENVIRONMENT</h1>
+    <p><strong>Small Actions. Big Impact.</strong></p>
+    <p>This website is made to empower the youth to protect our planet through awareness, education, and action.</p>
+</header>
+
+<!-- SECTION 2: WHO WE ARE -->
+<section>
+<h2>Who We Are</h2>
+<p>Youth for the Environment is a student-led campaign that promotes environmental awareness and sustainable living.</p>
+<p>We believe that young people have the power to create positive change. Through this platform, we aim to educate, inspire, and encourage responsible environmental actions in our daily lives.</p>
+<div class="highlight">
+<p><strong>Our mission is simple:</strong><br>To turn awareness into action.</p>
+</div>
+</section>
+
+<!-- SECTION 3: WHY IT MATTERS -->
+<section>
+<h2>Why It Matters</h2>
+<p>Our planet is facing serious environmental challenges, such as:</p>
+<ul>
+<li>Climate change</li>
+<li>Plastic pollution</li>
+<li>Deforestation</li>
+<li>Flood</li>
+<li>Water and air pollution</li>
+</ul>
+<p>These problems affect our communities, our health, and our future.</p>
+<p>If we do not act now, the next generation will suffer the consequences.</p>
+<p><strong>But change starts with us.</strong></p>
+</section>
+
+<!-- SECTION 4: ENVIRONMENTAL ISSUES -->
+<section>
+<h2>Environmental Issues</h2>
+
+<h3>Climate change</h3>
+<p>Climate change is caused by human activities such as burning fossil fuels and cutting down trees. It leads to rising temperatures, extreme weather, and flooding.</p>
+<img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f51?auto=format&fit=crop&w=800&q=80" alt="Climate change">
+
+<h3>Plastic Pollution</h3>
+<p>Plastic waste harms marine life and takes hundreds of years to decompose. Reducing plastic use helps protect our oceans and wildlife.</p>
+<img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=800&q=80" alt="Plastic pollution">
+</section>
+
+<!-- SECTION 5: WHAT YOU CAN DO -->
+<section>
+<h2>What You Can Do</h2>
+<ul>
+<li>Use reusable bottles and eco-bags</li>
+<li>Practice proper waste segregation</li>
+<li>Turn off lights when not in use</li>
+<li>Save water</li>
+<li>Reduce single-use plastics</li>
+<li>Support environmental activities</li>
+</ul>
+<div class="highlight">
+<p><strong>Small habits create big results.</strong></p>
+</div>
+<img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=800&q=80" alt="Sustainable living">
+</section>
+
+<!-- SECTION 6: CALL TO ACTION -->
+<section>
+<h2>The Earth is not asking for perfection.<br>It is asking for participation.</h2>
+<div class="highlight call-to-action">
+<p>Every small decision you make — choosing reusable over disposable, saving electricity, throwing waste properly — creates a ripple of change.</p>
+<p>We are the generation that will inherit this planet.<br>But more importantly, we are the generation that can protect it.</p>
+<p>The future is not something we wait for.<br>It is something we build.</p>
+<p><strong>Let us rise.<br>Let us act.<br>Let us protect the only home we have.</strong></p>
+</div>
+</section>
+
+<!-- SECTION 7: JOIN US -->
+<section>
+<h2>Join us at ecoGATES</h2>
+<div class="team-section">
+<p><strong>Members:</strong></p>
+<ul>
+<li>Geadrey Johan Salem Artates</li>
+<li>Prince Lawrence Gabriel</li>
+<li>Jake Llacuna</li>
+<li>Jireh Pearl B. Gonzales</li>
+<li>Denise Laron</li>
+</ul>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p><strong>Environmental Awareness Campaign 2026</strong></p>
+</footer>
+
+<script>
+// Reveal sections on scroll
+const sections = document.querySelectorAll('section');
+const revealSection = () => {
+    const triggerBottom = window.innerHeight / 5 * 4;
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if(sectionTop < triggerBottom) {
+            section.classList.add('visible');
+        }
+    });
+};
+
+window.addEventListener('scroll', revealSection);
+window.addEventListener('load', revealSection);
+</script>
+
+</body>
+</html>
